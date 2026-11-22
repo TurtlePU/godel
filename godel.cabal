@@ -38,4 +38,4 @@ test-suite godel-test
     type:           exitcode-stdio-1.0
     hs-source-dirs: test
     main-is:        Main.hs
-    build-depends:  base, godel
+    build-depends:  base, godel, falsify, tasty, tasty-falsify, transformers
